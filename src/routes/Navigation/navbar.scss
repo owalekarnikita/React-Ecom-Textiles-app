@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+    .navlink {
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+    }
+    .navRightSideLinkContainer {
+        display: flex;
+        gap: 1rem;
+    }
+}
